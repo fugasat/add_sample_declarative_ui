@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class AppManager: NSObject, ObservableObject {
+class AppManager: ObservableObject {
     @Published var num1: String = ""
     @Published var num2: String = ""
     @Published var answer: String = "0"
